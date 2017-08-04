@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class SharesController < ApplicationController
-  layout 'public'
+  layout 'modal'
 
   before_action :authenticate_user!
 

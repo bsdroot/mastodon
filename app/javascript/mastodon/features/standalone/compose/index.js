@@ -7,7 +7,7 @@ export default class Compose extends React.PureComponent {
 
   render () {
     return (
-      <div>
+      <div className='compose-standalone'>
         <ComposeFormContainer />
         <NotificationsContainer />
         <LoadingBarContainer className='loading-bar' />
